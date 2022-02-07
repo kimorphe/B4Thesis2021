@@ -8,7 +8,7 @@ git add makefile
 git add *.cls
 git add *.txt
 git add *.sh
-git add Tex/Figs/*.svgz
+git add Figs/*.svgz
 
 #git add Tex/Abstract/*.tex
 #git add Tex/Abstract/makefile
