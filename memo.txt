@@ -1,0 +1,3 @@
+FDM2021/FDM/Plate/Near
+	mkfig.py --> plate, incident field
+	mkfig2.py --> scattered field 
