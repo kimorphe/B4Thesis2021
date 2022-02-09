@@ -9,15 +9,16 @@ git add *.cls
 git add *.txt
 git add *.sh
 git add Figs/*.svgz
+git add Figs/FDgrid.eps
 
-#git add Tex/Abstract/*.tex
-#git add Tex/Abstract/makefile
-#git add Tex/Abstract/*.svgz
-#git add Tex/Abstract/*.cls
-#git add Tex/Abstract/*.sty
-#git add Tex/Abstract/*.txt
-#git add Tex/Abstract/*.sh
-#git add Tex/Abstract/Figs/*.svgz
+git add Abstract/*.tex
+git add Abstract/makefile
+git add Abstract/*.svgz
+git add Abstract/*.cls
+git add Abstract/*.sty
+git add Abstract/*.txt
+git add Abstract/*.sh
+git add Abstract/Figs/*.svgz
 
 # Excel Files
 

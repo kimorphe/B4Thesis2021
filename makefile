@@ -2,6 +2,7 @@ thesis.pdf: thesis.dvi
 	dvipdfmx thesis.dvi
 
 thesis.dvi: thesis.tex 1_intro.tex 2_method.tex 3_results.tex 4_discussion.tex\
+	Figs/setup.eps\
 	Figs/model_plate.eps Figs/model_T.eps Figs/model_bead.eps\
 	Figs/plate_inc.eps Figs/plate_tot.eps Figs/plate_sct.eps Figs/plate_bwvs.eps\
 	Figs/plate_inc.eps Figs/plate_tot.eps Figs/plate_sct.eps Figs/plate_bwvs.eps\
@@ -9,6 +10,8 @@ thesis.dvi: thesis.tex 1_intro.tex 2_method.tex 3_results.tex 4_discussion.tex\
 	Figs/bead_inc.eps Figs/bead_tot.eps Figs/bead_sct.eps Figs/bead_sct2.eps Figs/bead_bwvs.eps
 	platex thesis.tex
 
+Figs/setup.eps: Figs/setup.svgz
+	inkscape -z -f Figs/setup.svgz -E Figs/setup.eps
 Figs/model_plate.eps: Figs/model_plate.svgz
 	inkscape -z -f Figs/model_plate.svgz -E Figs/model_plate.eps
 Figs/model_T.eps: Figs/model_T.svgz
